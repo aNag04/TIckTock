@@ -1,14 +1,13 @@
 var hr,min,sec;
 var secAngle, minAngle, hrAngle;
 var map, map2;
-var d;
+
 function setup() {
   createCanvas(800,400);
   createSprite(400, 200, 50, 50);
   hr = hour();
   min = minute();
   sec = second();
-  d = diameter();
   secAngle = map(sec,0,60,360);
 }
  
